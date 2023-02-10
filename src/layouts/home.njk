@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="intro">
+      {{ content | safe }}
+    </div>
+  </div>
+
+</header>
+
+<section class="post-list__wrapper">
+  {% set postslist = collections.posts | head(-10) %}
+  {% include "posts-list.njk" %}
+
+</section>
+
+<a class="all-posts-link" href="{{ '/blog/' | url }}">View All Posts</a>

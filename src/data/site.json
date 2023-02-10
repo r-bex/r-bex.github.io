@@ -1,0 +1,58 @@
+{
+  "name": "Rebecca Davey",
+  "description": "Eleventy Duo is a blah minimal and beautiful Eleventy theme for personal blogs.",
+  "url": "https://eleventyduo.netlify.app",
+  "author": {
+    "name": "Author Name",
+    "email": "author@site.com",
+    "twitterHandle": "author_handle"
+  },
+  "defaultSocialImage": "/images/default-social-image.png",
+  "headerLinks": [
+    {
+      "text": "Reading",
+      "url": "/tags/books",
+      "external": false
+    },
+    {
+      "text": "Posts",
+      "url": "/blog",
+      "external": false
+    },
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    }
+  ],
+  "socialLinks": [
+    {
+      "text": "rebecca#6860",
+      "url": "https://discord.com",
+      "external": true
+    },
+    {
+      "text": "Public Twitter",
+      "url": "https://twitter.com/suprahoopla",
+      "external": true
+    },
+    {
+      "text": "Private Twitter",
+      "url": "https://twitter.com/sprhpl",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/r-bex",
+      "external": true
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": true
+    }
+  ],
+  "showFooterAttribution": false
+}
